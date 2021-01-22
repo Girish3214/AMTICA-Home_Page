@@ -1,0 +1,51 @@
+:root {
+  --primary: #34d955;
+}
+
+.btn {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.btn-main {
+  background: var(--primary);
+}
+
+.btn-download {
+  background: black;
+  color: white;
+  width: 9rem;
+  height: 4rem;
+  text-align: left;
+}
+
+.btn-main:hover {
+  background: #3cfc43;
+}
+
+.btn-download:hover {
+  background: rgb(68, 68, 68);
+}
+
+.btn-mobile {
+  margin: 2px;
+}
+
+.btn-icon {
+  background: var(--primary);
+  padding: 5px;
+}
+
+@media screen and (max-width: 960px) {
+  .btn {
+    font-size: 1rem;
+    padding: 12px;
+  }
+}
