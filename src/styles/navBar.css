@@ -2,7 +2,7 @@
   background: transparent;
   height: 60px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   font-size: 1.2rem;
   position: sticky;
@@ -23,13 +23,15 @@
   justify-content: center;
   align-items: center;
   height: 60px;
-  top: 0;
+  max-width: 1500px;
+  /* top: 0;
   position: absolute;
-  bottom: 0;
+  bottom: 0; */
 }
 
 .navbar-logo {
   cursor: pointer;
+  margin-left: 20px;
   color: black;
   text-decoration: none;
   font-size: 2rem;
@@ -46,7 +48,7 @@
 .nav-menu {
   display: grid;
   grid-template-columns: repeat(4, auto);
-
+  grid-gap: 10px;
   list-style: none;
   text-align: center;
   width: 60vw;
@@ -59,18 +61,18 @@
 }
 
 .nav-links {
+  color: black;
   display: flex;
   align-items: center;
   text-decoration: none;
   margin-top: 1.2rem;
   padding: 0.1rem 1rem;
   height: auto;
-  color: black;
 }
 
 .nav-links:hover {
   transform: scale(1.1);
-  border-bottom: 0.2rem solid black;
+  border-bottom: 4px solid black;
   transition: all 0.2s ease-in-out;
 }
 
